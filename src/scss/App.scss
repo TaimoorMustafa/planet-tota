@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    color: #333;
+}
+
+:root {
+    scrollbar-width: thin;
+}
+
+body {
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: grey;
+    }
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+button {
+
+    &:focus,
+    &:focus-visible {
+        outline: 0;
+    }
+}
+
+a {
+    text-decoration: none !important;
+
+    &:hover {
+        @extend a;
+    }
+}
+
+@import './mixin',
+'./other',
+'./globalForm',
+'./header',
+'./footer',
+'./banner',
+'./main-pages/homePage',
+'./main-pages/about',
+'./main-pages/totaCreators',
+'./main-pages/meet-the-first',
+'./main-pages/become-a-citizen',
+'./main-pages/explore_synergies',
+'./main-pages/metaverse',
+'./main-pages/tota_nfts',
+'./main-pages/in-production';

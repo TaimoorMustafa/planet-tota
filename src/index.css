@@ -1,0 +1,98 @@
+@font-face {
+    font-family: MyriadPro;
+    src: url(assets/fonts/MyriadPro-Regular.otf);
+}
+
+.font_MyriadPro{
+    font-family: MyriadPro;
+}
+
+@font-face {
+    font-family: Courier;
+    src: url(assets/fonts/courier.ttf);
+}
+
+.font_Courier{
+    font-family: Courier;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(assets/fonts/Helvetica.ttc);
+}
+
+.font_Helvetica{
+    font-family: Helvetica;
+}
+
+@font-face {
+    font-family: HelveticaBold;
+    src: url(assets/fonts/Helvetica.ttf);
+}
+
+.font_Helvetica_Bold{
+    font-family: HelveticaBold;
+}
+
+@font-face {
+    font-family: AlterEgo;
+    src: url(assets/fonts/AlterEgo.ttf);
+}
+
+.font_AlterEgo{
+    font-family: AlterEgo;
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(assets/fonts/BebasNeue.otf);
+}
+
+.font_BebasNeue{
+    font-family: BebasNeue;
+}
+
+@font-face {
+    font-family: BRLNSR;
+    src: url(assets/fonts/BRLNSR.TTF);
+}
+
+.font_BRLNSR{
+    font-family: BRLNSR;
+}
+
+@font-face {
+    font-family: DINBOLD;
+    src: url(assets/fonts/DINBOLD.TTF);
+}
+
+.font_DINBOLD{
+    font-family: DINBOLD;
+}
+
+@font-face {
+    font-family: QuicksandRegular;
+    src: url(assets/fonts/Quicksand-Regular.ttf);
+}
+
+.font_Quicksand{
+    font-family: QuicksandRegular;
+}
+
+@font-face {
+    font-family: TrixiPro;
+    src: url(assets/fonts/TrixiPro.ttf);
+}
+
+.font_TrixiPro{
+    font-family: TrixiPro;
+}
+
+@font-face {
+    font-family: Typewriter;
+    src: url(assets/fonts/typewriter.ttf);
+}
+
+.font_Typewriter{
+    font-family: Typewriter;
+}

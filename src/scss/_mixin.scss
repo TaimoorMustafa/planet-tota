@@ -1,0 +1,11 @@
+@mixin Smooth($x) {
+    transition: $x all ease-in-out;
+}
+
+@mixin Flex($a,$b,$c,$d,$e,$f){
+    display: flex;
+    flex-flow: $a $b;
+    justify-content: $c;
+    align-items: $d;
+    gap:$e $f;
+}

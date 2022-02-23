@@ -1,0 +1,41 @@
+.global_form{
+    .global_input_wrapper{
+        *{
+            font-family: Helvetica;
+        }
+        margin-bottom: 1rem;
+        [type=text],
+        [type=phone],
+        [type=email],
+        textarea{
+            width: 100%;
+            border: 0;  
+            font-size: clamp(0.875rem,2vw,0.95rem);          
+            padding: 0.5em 1em;
+            width: 100%;
+            &:focus{
+                outline: 0;
+            }
+        }
+        .default{
+            border: 1px solid #000;
+            color: #000;
+            &::placeholder{
+                color: #000;
+            }
+        }
+        .bg_black{
+            background-color: #000;
+            color: #fff;
+            &::placeholder{
+                color: #fff;
+                opacity: 0.85;
+            }
+        }
+        [type=submit]{
+            border: 0;
+            padding: 0.2em 1.5em;
+            font-size: clamp(0.875rem,2vw,1rem);
+        }
+    }
+}

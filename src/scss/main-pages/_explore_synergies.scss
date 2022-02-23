@@ -1,0 +1,107 @@
+.exp_characters {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-items: flex-start;
+
+    .img_wrapper {
+        width: 100%;
+        max-width: 25%;
+    }
+
+    button,
+    [type=submit] {
+        font-family: QuicksandRegular;
+        background-color: #fff;
+        color: #000;
+        font-size: clamp(0.875rem, 2vw, 1.1rem);
+        border: 0;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        margin: 1em 0 1em;
+    }
+
+    .content_box {
+        width: 100%;
+        max-width: 50%;
+        margin-top: 12rem;
+
+        .icon_wrapper {
+            margin-bottom: 1rem;
+
+            img {
+                max-width: 150px;
+            }
+        }
+
+        .inner_wrapper {
+            .para {
+                font-size: clamp(0.85rem, 1.5vw, 1.1rem);
+                font-family: QuicksandRegular;
+            }
+
+            .bottom_wrapper {
+                text-align: center;
+                margin-top: 1.5rem;
+
+                p {
+                    font-size: clamp(0.75rem, 2vw, 0.95rem);
+                    font-family: QuicksandRegular;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1400px) {
+    .exp_characters .content_box {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .exp_characters {
+        column-gap: 0;
+    }
+
+    .exp_characters .img_wrapper {
+        max-width: 30%;
+    }
+
+    .exp_characters .content_box {
+        max-width: 40%;
+    }
+}
+
+@media (max-width:900px) {
+    .exp_characters .content_box {
+        margin-top: 8rem;
+    }
+}
+
+@media (max-width:767px) {
+    .exp_characters {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .exp_characters .content_box {
+        max-width: 80%;
+        order: 1;
+        margin: 1rem auto 0;
+    }
+}
+
+
+@media (max-width:600px) {
+    .exp_characters .img_wrapper {
+        max-width: 45%;
+    }
+
+    .exp_characters .content_box {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+}
