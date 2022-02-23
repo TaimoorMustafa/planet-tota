@@ -9,7 +9,7 @@ import MyRoutes from './routes';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/planet-tota">
       {/* <Scroll /> */}
       <MyRoutes />
     </Router>
